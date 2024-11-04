@@ -25,3 +25,12 @@ bool b5 = false;
 bool c5 = false;
 bool resultado = !a || (b && c);
 Console.Writeline(resultado);
+
+// exemplo de precedencia 
+
+bool a6 = true;
+bool b6 = false;
+bool c6 = false;
+bool resultado = !a || b && c;
+Console.Writeline(resultado);
+
