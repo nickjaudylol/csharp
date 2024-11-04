@@ -33,4 +33,3 @@ bool b6 = false;
 bool c6 = false;
 bool resultado = !a || b && c;
 Console.Writeline(resultado);
-
